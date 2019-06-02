@@ -36,7 +36,7 @@ def preprocess_imgs(input_image):
     #Not using normalize function as it is done internanlly the step below
     ###
     
-    input_image = keras.applications.ResNet50.preprocess_inputpreprocess_input(x)
+    input_image = keras.applications.ResNet50.preprocess_input(x)
 
     return input_image
   

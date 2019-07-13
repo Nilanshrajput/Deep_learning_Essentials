@@ -1,3 +1,5 @@
+#Augmentaions here are uising Albumentations library "https://github.com/albu/albumentations" developed by Kaggle Grandmasters
+
 from albumentations import (
     PadIfNeeded,
     HorizontalFlip,
